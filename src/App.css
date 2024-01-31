@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.formDesign{
+  display: flex;
+  flex-direction: column;
+}
+
+.todoSubmit{
+  height: 50px;
+  width: 100px;
+  border-radius:  10px;
+  background-color: blue;
+}
+
+.todoInput{
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: lightgoldenrodyellow;
+  color: black ;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.Complete{
+  margin-right: 20px;
+  color: pink;
+}
+
+.newTodo{
+  background-color: wheat;
+  border-radius: 10px;
+}
+
+.todoItem{
+  color: black;
+  font-size: large;
+  font-weight: 750;
+}
